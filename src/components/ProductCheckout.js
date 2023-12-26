@@ -3,6 +3,7 @@ import '../style.css';
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import Header from './header';
 import Footer from './Footer';
+import { Link } from 'react-router-dom';
 
 
 
@@ -28,7 +29,9 @@ const ProductCheckout = () => {
                                 <p>Qty:</p>
                                 <input type="number" value={1} />
                             </div>
-                            <button className='btn btn-primary mt-4'>Add to Cart</button>
+                            <button className='btn btn-primary btn_addtocart mt-4'>
+                                <Link to="/CartPage">Add to Cart</Link>
+                            </button>
                         </div>
                     </div>
                 </div>

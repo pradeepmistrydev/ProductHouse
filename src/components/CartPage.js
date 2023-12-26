@@ -42,7 +42,7 @@ const CartPage = () => {
                                             <td>$84.00</td>
                                             <td>
                                                 <div className='quantity_counter'>
-                                                    <input type="number" name="" id="" />
+                                                    <input type="number" name="" value={1} id="" />
                                                 </div>
                                             </td>
                                             <td>$84.00</td>
@@ -58,7 +58,7 @@ const CartPage = () => {
                                             <td>$84.00</td>
                                             <td>
                                                 <div className='quantity_counter'>
-                                                    <input type="number" name="" id="" />
+                                                    <input type="number" name="" id="" value={1} />
                                                 </div>
                                             </td>
                                             <td>$84.00</td>

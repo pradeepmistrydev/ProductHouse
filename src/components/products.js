@@ -1,6 +1,7 @@
 import React from 'react';
 import '../style.css';
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import { Link } from 'react-router-dom';
 
 
 const Products = () => {
@@ -9,14 +10,16 @@ const Products = () => {
             {
                 <div className="container">
                     <div className="products">
-                        <div className='product_item position-relative'>
-                            <img src="images/clothes1.webp" className='w-100' alt="clothes" />
-                            <img src="images/card_btn.webp" className='addbtn' alt="cart_btn" />
-                            <div className="products_details" v>
-                                <p>Knitted Jumper</p>
-                                <h3>$30.00</h3>
+                        <Link to="/ProductCheckout">
+                            <div className='product_item position-relative'>
+                                <img src="images/clothes1.webp" className='w-100' alt="clothes" />
+                                <img src="images/card_btn.webp" className='addbtn' alt="cart_btn" />
+                                <div className="products_details" v>
+                                    <p>Knitted Jumper</p>
+                                    <h3>$30.00</h3>
+                                </div>
                             </div>
-                        </div>
+                        </Link>
                         <div className='product_item position-relative'>
                             <img src="images/clothes2.webp" className='w-100' alt="clothes" />
                             <img src="images/card_btn.webp" className='addbtn' alt="cart_btn" />
