@@ -12,6 +12,8 @@ import Footer from './components/Footer';
 import Login from './components/Login';
 import Register from './components/Register';
 import CartPage from './components/CartPage';
+import ProductCheckout from './components/ProductCheckout';
+import ProductsCategory from './components/ProductsCategory';
 
 const App = () => {
   const router = createBrowserRouter([
@@ -35,6 +37,14 @@ const App = () => {
       path: '/CartPage',
       element: <CartPage />,
     },
+    {
+      path: '/ProductsCategory',
+      element: <ProductsCategory />,
+    },
+    {
+      path: '/ProductCheckout',
+      element: <ProductCheckout />,
+    },
   ]);
   return (
     <div>
@@ -44,6 +54,7 @@ const App = () => {
         <Products />
         <Login />
         <CartPage />
+        <ProductCheckout />
         <Footer />
       </RouterProvider>
     </div>

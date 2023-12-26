@@ -30,6 +30,10 @@ body {
     align-items: center;
 }
 
+li a.active {
+    color: blue !important;
+}
+
 ul.navlist {
     display: flex;
     gap: 24px;
@@ -48,7 +52,7 @@ a.navbar-brand {
     font-size: 25px;
     padding: 0;
     color: #0d6efd;
-    font-weight: 600;
+    font-weight: bold;
     line-height: 1;
 }
 
@@ -197,6 +201,8 @@ button.btn.btn-primary.shop_nowbtn {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
 }
 
 table tr td {
@@ -204,7 +210,6 @@ table tr td {
 }
 
 .quantity_counter input {
-    width: 50px;
     border-radius: 6px;
     border: 1px solid var(--gray);
     margin: 0 auto;
@@ -312,6 +317,48 @@ table tr td {
 }
 
 /* login */
+
+/* product cart */
+.image_product {
+    width: 500px;
+}
+
+.productcheckout {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.size_input {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.size_input p {
+    margin-bottom: 0;
+}
+
+.size_input select {
+    border: 1px solid var(--gray);
+    padding: 5px 15px;
+    border-radius: 6px;
+}
+
+.productcheckout_details h2 {
+    font-size: 25px;
+}
+
+.productcheckout_details input {
+    border-radius: 6px;
+    border: 1px solid var(--gray);
+    outline: 0;
+    padding: 5px;
+    width: 63px;
+    text-align: center;
+}
+
+/* product cart */
 
 /* footer starts */
 .footer {
