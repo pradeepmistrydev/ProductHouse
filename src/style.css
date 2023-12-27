@@ -48,6 +48,14 @@ button.cart_detail {
     margin-right: 20px;
 }
 
+button.cart_detail a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--white);
+    text-decoration: none;
+}
+
 a.navbar-brand {
     font-size: 25px;
     padding: 0;

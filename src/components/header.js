@@ -26,10 +26,13 @@ const Header = () => {
                             </div>
                         </div>
                         <button className='btn btn-primary cart_detail'>
-                            <img src="images/card.svg" alt="cart_icon" />
-                            <p className='mb-0 line_height_0'>1</p>
+                            <NavLink to="/CartPage">
+                                <img src="images/card.svg" alt="cart_icon" />
+                                <p className='mb-0 line_height_0'>1</p>
+                            </NavLink>
                         </button>
                         <button className='btn btn-primary cart_detail'>
+
                             <img src="images/user.png" className='user_icon' alt="cart_icon" />
                             <p className='mb-0 line_height_0 text-white'>
                                 <NavLink to='/Login'>Login / Register</NavLink>
