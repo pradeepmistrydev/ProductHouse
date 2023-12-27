@@ -1,17 +1,8 @@
 import React from 'react';
-import '../style.css';
-import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import Header from './header';
-import HeroBanner from './hero_banner';
-import Products from './products';
-import Footer from './Footer';
-
-
 
 const CartPage = () => {
     return (
-        <div>
-            <Header />
+        <>
             <div className='cartPage'>
                 <div className='cartPage_banner'>
                     <h2>Shopping Cart</h2>
@@ -87,8 +78,7 @@ const CartPage = () => {
                     </div>
                 </div>
             </div>
-            <Footer />
-        </div >
+        </>
     )
 }
 
